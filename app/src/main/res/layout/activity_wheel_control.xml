@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sp.sanbotcontrol.WheelControlActivity">
+
+    <Button
+        android:id="@+id/forwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stopButton"
+        android:layout_alignStart="@+id/stopButton"
+        android:layout_marginBottom="49dp"
+        android:text="Forward" />
+
+    <Button
+        android:id="@+id/backwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/stopButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text="Backward" />
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/rightButton"
+        android:layout_alignBottom="@+id/rightButton"
+        android:layout_marginEnd="65dp"
+        android:layout_toStartOf="@+id/backwardButton"
+        android:text="Left" />
+
+    <Button
+        android:id="@+id/rightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true"
+        android:layout_marginStart="60dp"
+        android:layout_toEndOf="@+id/forwardButton"
+        android:text="Right" />
+
+    <Button
+        android:id="@+id/back_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backwardButton"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/leftButton"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/leftButton"
+        android:layout_alignBottom="@+id/leftButton"
+        android:layout_centerHorizontal="true"
+        android:text="stop" />
+
+    <Button
+        android:id="@+id/hehe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hehe2"
+        android:layout_alignBottom="@+id/hehe2"
+        android:layout_marginEnd="21dp"
+        android:layout_toStartOf="@+id/backwardButton"
+        android:text="Wander" />
+
+    <Button
+        android:id="@+id/hehe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rightButton"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/forwardButton"
+        android:text="Stop Wandering" />
+
+</RelativeLayout>

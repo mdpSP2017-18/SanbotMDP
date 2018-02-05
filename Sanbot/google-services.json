@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "868103861271",
+    "firebase_url": "https://robotlogin-b2180.firebaseio.com",
+    "project_id": "robotlogin-b2180",
+    "storage_bucket": "robotlogin-b2180.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868103861271:android:3d55f7c39dfd3c6b",
+        "android_client_info": {
+          "package_name": "com.sp.sanbotcontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868103861271-stprk2oa5oj90sulf3548s6dljc6j1oc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sp.sanbotcontrol",
+            "certificate_hash": "9e7a8fa418b69b20aabc7e3c38c649314739c9bf"
+          }
+        },
+        {
+          "client_id": "868103861271-b6m7ghtq0esvlinhm4vm6h0k7lnsoql1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkQI2MSbpJs0E7xqJXHJvdDlEFgGUstA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868103861271-b6m7ghtq0esvlinhm4vm6h0k7lnsoql1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

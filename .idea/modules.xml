@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sanbot/Sanbot.iml" filepath="$PROJECT_DIR$/Sanbot/Sanbot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SanbotControl.iml" filepath="$PROJECT_DIR$/SanbotControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sanbotmobile/sanbotmobile.iml" filepath="$PROJECT_DIR$/sanbotmobile/sanbotmobile.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sp.sanbot.sanbotmobile.TabControl">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/forwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:text="@string/forward_button" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/forwardButton"
+        android:layout_below="@+id/forwardButton"
+        android:layout_marginTop="16dp"
+        android:text="@string/stop_button" />
+
+    <Button
+        android:id="@+id/backwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stopButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/backward_button" />
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stopButton"
+        android:layout_alignBottom="@+id/stopButton"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/stopButton"
+        android:text="@string/left_button" />
+
+    <Button
+        android:id="@+id/rightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stopButton"
+        android:layout_alignBottom="@+id/stopButton"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/stopButton"
+        android:text="@string/right_button" />
+
+</RelativeLayout>

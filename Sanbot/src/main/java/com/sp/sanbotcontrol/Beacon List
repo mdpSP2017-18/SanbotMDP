@@ -1,0 +1,20 @@
+#Estimote beacons#
+Pink (Candy)
+    - C8:E1:0A:72:3D:C7 (Eddystone)
+Yellow (Lemon)
+    - C7:BC:38:B8:1B:92 (Eddystone)
+Purple (Beetroot)
+    - DD:BC:BA:E7:97:08 (Eddystone)
+
+#Sensoro beacons#
+- 01:17:C5:32:7A:39 (Eddystone)
+-
+-
+
+
+
+When the distance between the beacon and the phone is less than 1 meter,
+it is better to mount the beacon at 0 degree; For expected distances to the device of 1-6m,
+a mount orientation of 90 degrees is most appropriate. Beyond 6m, no single mount
+orientation provides a consistently stronger signal. The iPhone 6 Plus has best overall
+performance of detecting the RSSI value based on this test.
